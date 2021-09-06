@@ -1,7 +1,8 @@
 # pyfu
 
-> A small utility for running Python functions from command line
+> Run and debug Python functions from CLI
 
+Pyfu is a small utility for running Python functions from command line.
 With pyfu you can run functions from CLI on standard Python packages and modules without any additional packages or dependencies.
 
 ### How to use

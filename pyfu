@@ -4,7 +4,7 @@ read -d '' usage << EOF
 
 pyfu
 
-A small bash utility for running Python functions from CLI. 
+A small bash utility for running Python functions from CLI.
 
 Usage: pyfu [PACKAGE.MODULE.FUNCTION] ARGUMENTS
 
@@ -51,7 +51,7 @@ then
 fi
 
 PYTHON_MODULE=$1
-PYTHON_FUNCTION=${PYTHON_MODULE##*\.}
+PYTHON_FUNCTION=${PYTHON_MODULE##*\:}
 PYTHON_IMPORT=${PYTHON_MODULE%\.*}
 shift
 ARGS="$@"
